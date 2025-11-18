@@ -41,24 +41,10 @@
 			>;
 		};
 		mac {
-				display-name = "MAC";
-			bindings = <
-				&kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans
-				&trans &trans &kp UP &kp END &trans &trans &trans &kp PG_UP &kp INS &kp DEL &kp PSCRN &trans &trans
-				&trans   &kp LEFT &kp DOWN &kp RIGHT &trans &trans &kp HOME &trans &trans &trans &trans  &trans &trans  &bootloader
-				&trans &trans &trans &trans &trans &trans &trans &kp PG_DN &trans &trans &bt BT_PRV &bt BT_NXT  &bl BL_OFF
-				&trans &trans  &trans              &trans                            &trans   &trans   &sys_reset &bt BT_CLR
-			>;
+				status = "reserved";
 		};
 		raise-mac {
-				display-name = "Raise MAC";
-			bindings = <
-				&kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans
-				&trans &trans &kp UP &kp END &trans &trans &trans &kp PG_UP &kp INS &kp DEL &kp PSCRN &trans &trans
-				&trans   &kp LEFT &kp DOWN &kp RIGHT &trans &trans &kp HOME &trans &trans &trans &trans  &trans &trans  &bootloader
-				&trans &trans &trans &trans &trans &trans &trans &kp PG_DN &trans &trans &bt BT_PRV &bt BT_NXT  &bl BL_OFF
-				&trans &trans  &trans              &trans                            &trans   &trans   &sys_reset &bt BT_CLR
-			>;
+				status = "reserved";
 		};
   	};
 };
