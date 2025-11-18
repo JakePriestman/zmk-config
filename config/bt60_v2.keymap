@@ -30,7 +30,7 @@
 				&kp LCTRL &kp LGUI &kp LALT            &kp SPACE                          &kp RALT  &mo 1 &kp C_MENU    &kp RCTRL
 			>;
 		};
-		raise-windows{
+		raise-windows {
 				display-name = "Raise Windows";
 			bindings = <
 				&kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans
@@ -60,7 +60,5 @@
 				&trans &trans  &trans              &trans                            &trans   &trans   &sys_reset &bt BT_CLR
 			>;
 		};
-	};
-
-  };
+  	};
 };
